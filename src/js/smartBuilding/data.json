@@ -1,0 +1,18 @@
+{
+    "maps":[
+        {"id":"entree","size": [1189, 841]},
+        {"id":"vergaderkamer","size": [1189, 841]},
+        {"id":"tussenvloer","size": [1189, 841]},
+        {"id":"kantoor","size": [1189, 841]}
+    ],
+    "sensors":[
+        {"type":"beacon","coordinates":[165,107],"status":1,"map_id":"kantoor"},
+        {"type":"beacon","coordinates":[165,720],"status":1,"map_id":"kantoor"},
+        {"type":"beacon","coordinates":[1032,720],"status":1,"map_id":"kantoor"},
+        {"type":"beacon","coordinates":[1032,107],"status":0,"map_id":"kantoor"},
+        {"type":"temperature","coordinates":[335,478],"status":0,"map_id":"kantoor"},
+        {"type":"waterleak","coordinates":[335,402],"map_id":"kantoor"},
+        {"type":"distance","coordinates":[320,323],"map_id":"kantoor"},
+        {"type":"door","coordinates":[736,203],"map_id":"kantoor"}
+    ]
+}

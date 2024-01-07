@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smart Building</title>
+        <link rel="stylesheet" href="/static/css/reset.css"/>
+        <link rel="stylesheet" href="/static/css/layout.css"/>
+        <script src="/js/d3.v7.min.js"></script>
+        <script src="/static/js/smart-building.js"></script>
+    </head>
+    <body>
+        <h1>Smart Building</h1>
+        <div id="map" class="map"></div>
+    </body>
+</html>
+<script>
+(()=>{
+    const Building = new SmartBuilding(document.querySelector('#map'));
+    console.log(Building);
+})();
+</script>

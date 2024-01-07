@@ -1,0 +1,4 @@
+# The following files or directories are ignored by git:
+.git
+public/static
+node_modules

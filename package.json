@@ -1,0 +1,31 @@
+{
+  "name": "sensors-assignment",
+  "version": "1.0.0",
+  "description": "Assignment where possible solutions for smart buildings are demonstrated",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mulbv/sensors-assignment.git"
+  },
+  "author": "Mike de Bruijn - Mul BV ontwerpers & adviseurs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mulbv/sensors-assignment/issues"
+  },
+  "homepage": "https://github.com/mulbv/sensors-assignment#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "browserify-middleware": "^8.1.1",
+    "config": "^3.3.9",
+    "d3": "^7.8.5",
+    "express": "^4.18.2",
+    "less": "^4.2.0",
+    "less-middleware": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
